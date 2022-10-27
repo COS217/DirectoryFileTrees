@@ -1,0 +1,137 @@
+Assignment 4 readme File
+
+------------------------------------------------------------------------
+Student 1: What is your name?
+
+
+
+------------------------------------------------------------------------
+Student 2: What is your name?
+
+
+
+------------------------------------------------------------------------
+Student 1: What authorized sources of information did you use to
+complete the assignment? COPY THE LIST of authorized sources of
+information given in the "Policies" web page (also available on armlab
+in the file ~cos217/AuthorizedSourcesList ) to this section of the
+readme file, and edit it as appropriate.
+
+
+
+------------------------------------------------------------------------
+Student 2: What authorized sources of information did you use to
+complete the assignment? COPY THE LIST of authorized sources of
+information given in the "Policies" web page (also available on armlab
+in the file ~cos217/AuthorizedSourcesList ) to this section of the
+readme file, and edit it as appropriate.
+
+
+
+------------------------------------------------------------------------
+Student 1: What unauthorized sources of information did you use to
+complete the assignment? List any unauthorized sources of information
+that you used to complete the assignment, and describe how you used
+them. The course "Policies" web page defines unauthorized sources of
+information, and any source that you have used but not listed in the
+authorized sources should be included here. Please note that using an
+unauthorized source may trigger a course penalty, and depending on the
+nature of the interaction, may additionally require the interaction
+being reported to the Committee on Discipline. Write "None" if you used
+no unauthorized sources of information.
+
+
+
+------------------------------------------------------------------------
+Student 2: What unauthorized sources of information did you use to
+complete the assignment? List any unauthorized sources of information
+that you used to complete the assignment, and describe how you used
+them. The course "Policies" web page defines unauthorized sources of
+information, and any source that you have used but not listed in the
+authorized sources should be included here. Please note that using an
+unauthorized source may trigger a course penalty, and depending on the
+nature of the interaction, may additionally require the interaction
+being reported to the Committee on Discipline. Write "None" if you used
+no unauthorized sources of information.
+
+
+
+------------------------------------------------------------------------
+Student 1: What is your assessment of the assignment? Was it helpful?
+Was it fun?
+
+
+
+------------------------------------------------------------------------
+Student 2: What is your assessment of the assignment? Was it helpful?
+Was it fun?
+
+
+
+------------------------------------------------------------------------
+(optional) What information can you provide about your submission that
+will help your grader to grade it in the most favorable light? In
+particular, what bugs are in your submission?
+
+
+
+------------------------------------------------------------------------
+What warnings does splint generate for Part 2's checker, and what are
+your disagreements with them? Copy the splint warnings here, and
+express your disagreement after each warning. If there are no
+warnings, then write "None."
+
+
+
+------------------------------------------------------------------------
+What warnings does critTer generate on checkerDT.c, and what are your
+disagreements with them? Copy the critTer warnings here, and express
+your disagreement after each warning. If there are no warnings, then
+write "None."
+
+
+
+------------------------------------------------------------------------
+What warnings does splint generate on your Part 3 code, and what are
+your disagreements with them? Copy the splint warnings here, and
+express your disagreement after each warning. If there are no
+warnings, then write "None."
+
+
+
+------------------------------------------------------------------------
+What warnings does critTer generate on your Part 3 code, and what are
+your disagreements with them? Copy the critTer warnings here, and
+express your disagreement after each warning. If there are no
+warnings, then write "None."
+
+
+
+------------------------------------------------------------------------
+For each of the five faulty BDT implementations required by Step
+1.5, identify the function where there is a bug. You do not have to
+identify the bug itself, only its location, but note that this must be
+the location of the underlying error, which is not necessarily where
+the error manifests itself or is "noticed" by the client.
+
+
+      Executable         Function with the underlying error
+===============================================================
+         ./bdtBad1        
+---------------------------------------------------------------
+         ./bdtBad2        
+---------------------------------------------------------------
+         ./bdtBad3        
+---------------------------------------------------------------
+         ./bdtBad4        
+---------------------------------------------------------------
+         ./bdtBad5        
+===============================================================
+
+------------------------------------------------------------------------
+What are your critiques of the given DT implementations, as
+specified in Step 2.5?
+
+
+
+------------------------------------------------------------------------
