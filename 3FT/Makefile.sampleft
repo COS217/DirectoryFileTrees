@@ -17,4 +17,4 @@ sampleft: sampleft.o ft_client.o
 	$(CC) sampleft.o ft_client.o -o sampleft
 
 ft_client.o: ft_client.c ft.h a4def.h
-	$(CC) -c ft_client.c 
+	$(CC) -c ft_client.c

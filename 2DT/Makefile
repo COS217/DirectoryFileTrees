@@ -38,11 +38,15 @@ checkerDT.o: checkerDT.c dynarray.h checkerDT.h nodeDT.h path.h a4def.h
 nodeDTGood.o: nodeDTGood.c dynarray.h checkerDT.h nodeDT.h path.h a4def.h
 	$(GCC) -g -c $<
 
-nodeDT%.o: dynarray.h checkerDT.h nodeDT.h path.h a4def.h
-	$(error "You can't re-build" $@)
-
 dtGood.o: dtGood.c dynarray.h checkerDT.h nodeDT.h dt.h path.h a4def.h
 	$(GCC) -g -c $<
 
+#You can't re-build the .o files we provide, and
+#you shouldn't be changing the header files they rely on
+#but in case the headers' modification times have changed,
+#update the .o files' modification times to still be newer.
+nodeDT%.o: dynarray.h checkerDT.h nodeDT.h path.h a4def.h
+	touch $@
+
 dtBad%.o: dynarray.h checkerDT.h nodeDT.h dt.h path.h a4def.h
-	$(error "You can't re-build" $@)
+	touch $@

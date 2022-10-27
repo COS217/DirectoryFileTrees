@@ -43,8 +43,12 @@ bdt_client.o: bdt_client.c bdt.h a4def.h
 bdt_clientM.o: bdt_client.c bdt.h a4def.h
 	gcc217m -g -c $< -o bdt_clientM.o
 
+#You can't re-build the .o files we provide, and
+#you shouldn't be changing the header files they rely on
+#but in case the headers' modification times have changed,
+#update the .o files' modification times to still be newer.
 bdtGood.o: dynarray.h bdt.h path.h a4def.h
-	$(error "You can't re-build" $@)
+	touch $@
 
 bdtBad%.o: dynarray.h bdt.h path.h a4def.h
-	$(error "You can't re-build" $@)
+	touch $@
