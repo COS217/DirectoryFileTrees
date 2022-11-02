@@ -89,7 +89,7 @@ size_t Path_getSharedPrefixDepth(Path_T oPPath1, Path_T oPPath2);
   Returns the string version of the component of oPPath at level
   ulLevel. This count is from 0, so with level 0 the root of oPPath
   would be returned.
-  Returns NULL if If ulLevel is greater than oPPath's maxium level.
+  Returns NULL if ulLevel is greater than oPPath's maxium level.
 */
 const char *Path_getComponent(Path_T oPPath, size_t ulLevel);
 
