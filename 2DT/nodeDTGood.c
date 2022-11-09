@@ -182,7 +182,7 @@ size_t Node_free(Node_T oNNode) {
 
    /* recursively remove children */
    while(DynArray_getLength(oNNode->oDChildren) != 0) {
-      ulCount += Node_free(DynArray_removeAt(oNNode->oDChildren, 0));
+      ulCount += Node_free(DynArray_get(oNNode->oDChildren, 0));
    }
    DynArray_free(oNNode->oDChildren);
 
