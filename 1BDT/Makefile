@@ -31,10 +31,10 @@ dynarray.o: dynarray.c dynarray.h
 dynarrayM.o: dynarray.c dynarray.h
 	gcc217m -g -c $< -o dynarrayM.o
 
-path.o: path.c path.h
+path.o: path.c path.h a4def.h dynarray.h
 	gcc217 -g -c $<
 
-pathM.o: path.c path.h
+pathM.o: path.c path.h a4def.h dynarray.h
 	gcc217m -g -c $< -o pathM.o
 
 bdt_client.o: bdt_client.c bdt.h a4def.h

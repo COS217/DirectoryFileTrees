@@ -26,7 +26,7 @@ dt%: dynarray.o path.o checkerDT.o nodeDT%.o dt%.o dt_client.o
 dynarray.o: dynarray.c dynarray.h
 	$(GCC) -g -c $<
 
-path.o: path.c path.h
+path.o: path.c dynarray.h path.h a4def.h
 	$(GCC) -g -c $<
 
 dt_client.o: dt_client.c dt.h a4def.h
