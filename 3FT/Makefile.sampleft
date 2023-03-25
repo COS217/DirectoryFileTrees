@@ -1,5 +1,7 @@
 #--------------------------------------------------------------------
 # Makefile for Assignment 4, Part 3 sample implementation
+# Invoke with the command:
+# 	make -f Makefile.sampleft
 # Author: Christopher Moretti
 #--------------------------------------------------------------------
 
